@@ -1,7 +1,7 @@
 {
     "name": "vscode-flex-snippets",
-    "displayName": "vscode-flex-snippets",
-    "description": "Flex (MX & Spark) snippets for VSCode",
+    "displayName": "Flex Snippets",
+    "description": "Flex (MX & Spark) MXML snippets for faster development",
     "version": "0.0.1",
     "publisher": "neminovno",
     "engines": {
@@ -17,5 +17,13 @@
                 "path": "./snippets/snippets.json"
             }
         ]
+    },
+    "homepage": "https://github.com/neminovno/vscode-flex-snippets/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/neminovno/vscode-flex-snippets/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/neminovno/vscode-flex-snippets.git"
     }
 }
