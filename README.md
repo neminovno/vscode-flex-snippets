@@ -1,65 +1,178 @@
-# vscode-flex-snippets README
+# Flex snippets for VSCode
 
-This is the README for your extension "vscode-flex-snippets". After writing up a brief description, we recommend including the following sections.
+Quickly create MX and Spark components.
 
-## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## How to use
 
-For example if there is an image subfolder under your extension project workspace:
+Install extension in VSCode, start typing component name and select snippet.
 
-\!\[feature X\]\(images/feature-x.png\)
+## Snippets
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+`AdvancedDataGrid`
 
-## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+`BorderContainer`
 
-## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+`Box`
 
-For example:
 
-This extension contributes the following settings:
+`MX Button`
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
 
-## Known Issues
+`Spark Button`
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
 
-## Release Notes
+`Canvas`
 
-Users appreciate release notes as you update your extension.
 
-### 1.0.0
+`MX Checkbox`
 
-Initial release of ...
 
-### 1.0.1
+`Spark Checkbox`
 
-Fixed issue #.
 
-### 1.1.0
+`MX ComboBox`
 
-Added features X, Y, and Z.
 
------------------------------------------------------------------------------------------------------------
+`Spark ComboBox `
 
-## Working with Markdown
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+`MX DataGrid`
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
 
-### For more information
+`Spark DataGrid`
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+`DataGroup`
+
+
+`DateFormatter`
+
+
+`DateValidator`
+
+
+`DropDownList`
+
+
+`Ellipse`
+
+
+`MX Form`
+
+
+`Spark Form`
+
+
+`Group`
+
+
+`HBox`
+
+
+`HGroup`
+
+
+`HorizontalLayout`
+
+
+`HTTPService`
+
+
+`IconItemRenderer`
+
+
+`MX Image`
+
+
+`Spark Image`
+
+
+`Spark Image wth embedded source`
+
+
+`MX Label`
+
+
+`Spark Label`
+
+
+`layout with HorizontalLayout`
+
+
+`layout with VerticalLayout`
+
+
+`Library`
+
+
+`Line`
+
+
+`Spark List`
+
+
+`MX List with inline dataProvider`
+
+
+`Spark List with inline dataProvider`
+
+
+`MultiDPIBitmapSource`
+
+
+`NumberFormatter`
+
+
+`NumberValidator`
+
+
+`Spark Panel with HorizontalLayout`
+
+
+`Spark Panel with VerticalLayout`
+
+
+`PhoneFormatter`
+
+
+`PhoneNumberValidator`
+
+
+`Rect`
+
+
+`MX RemoteObject`
+
+
+`Spark RemoteObject`
+
+
+`MX Script`
+
+
+`Spark Script`
+
+
+`StringValidator`
+
+
+`VBox`
+
+
+`VerticalLayout `
+
+
+`VGroup`
+
+
+`WebService`
+
+
+`ZipCodeFormatter`
+
+
+`ZipCodeValidator`
+
