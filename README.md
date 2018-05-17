@@ -176,3 +176,6 @@ Install extension in VSCode, start typing component name and select snippet.
 
 `ZipCodeValidator`
 
+## How to create Flex projects in VSCode
+
+Install [ActionScript & MXML extension for Visual Studio Code](https://as3mxml.com).
