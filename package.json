@@ -10,6 +10,14 @@
     "categories": [
         "Snippets"
     ],
+    "icon": "images/icon.png",
+    "keywords": [
+        "flex",
+        "mxml",
+        "actionscript",
+        "mx",
+        "spark"
+    ],
     "contributes": {
         "snippets": [
             {
