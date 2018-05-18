@@ -618,5 +618,89 @@
             "\t\t\t\t\t invalid=\"${9:ifInvalid}(${10:event})\"/>$0"
         ],
         "description": "Creates a ZipCodeValidator"
-    }
+    },
+    "LinkButton": {
+        "prefix": "LinkButton",
+        "body": [
+            "<mx:LinkButton id=\"${1:linkButton}\"  label=\"${2:Click me}\" click=\"${3:${1}_onClick}(event)\"/>$0"
+        ],
+        "description": "Creates a LinkButton"
+    },
+    "BitmapImage": {
+        "prefix": "BitmapImage",
+        "body": [
+			"<s:BitmapImage id=\"${bitmapImage}\" source=\"@Embed(source='${imageSource}')\"/>$0"
+        ],
+        "description": "Creates a BitmapImage"
+    },
+    "ViewStack": {
+        "prefix": "ViewStack",
+        "body": [
+			"<mx:ViewStack id=\"${1:myViewStack}\" width=\"${2:100%}\" height=\"${3:100%}\" borderStyle=\"${4|solid,none,inset,outset|}\">",
+			"\t<s:NavigatorContent id=\"${5:first_nc}\" label=\"${6:First}\" width=\"${11:100%}\" height=\"${12:100%}\">",
+			"\t\t<s:Label text=\"First Screen\"/> ",
+			"\t</s:NavigatorContent>",
+			"",
+			"\t<s:NavigatorContent id=\"${7:second_nc}\" label=\"${8:Second}\" width=\"${11}\" height=\"${12}\">",
+			"\t\t<s:Label text=\"Second Screen\"/> ",
+			"\t</s:NavigatorContent>",
+			"",
+			"\t<s:NavigatorContent id=\"${9:third_nc}\" label=\"${10:Third}\" width=\"${11}\" height=\"${12}\">",
+			"\t\t<s:Label text=\"Third Screen\"/> ",
+			"\t</s:NavigatorContent>",
+			"</mx:ViewStack>$0"
+        ],
+        "description": "Creates a ViewStack"
+    },
+	"MX TabBar": {
+        "prefix": "TabBar",
+        "body": [
+			"<mx:TabBar dataProvider=\"{${1:myViewStack}}\"/>$0"
+        ],
+        "description": "Creates a MX TabBar"
+	},
+	"Spark TabBar": {
+        "prefix": "TabBar",
+        "body": [
+			"<s:TabBar dataProvider=\"{${1:myViewStack}}\"/>$0"
+        ],
+        "description": "Creates a Spark TabBar"
+	},
+	"Spark TabBar with tabs": {
+        "prefix": "TabBar",
+        "body": [
+			"<s:TabBar dataProvider=\"{${1}}\"/>",
+			"<mx:ViewStack id=\"${1:myViewStack}\" width=\"${2:100%}\" height=\"${3:100%}\" borderStyle=\"${4|solid,none,inset,outset|}\">",
+			"\t<s:NavigatorContent id=\"${5:first_nc}\" label=\"${6:First}\" width=\"${11:100%}\" height=\"${12:100%}\">",
+			"\t\t<s:Label text=\"First Screen\"/> ",
+			"\t</s:NavigatorContent>",
+			"",
+			"\t<s:NavigatorContent id=\"${7:second_nc}\" label=\"${8:Second}\" width=\"${11}\" height=\"${12}\">",
+			"\t\t<s:Label text=\"Second Screen\"/> ",
+			"\t</s:NavigatorContent>",
+			"",
+			"\t<s:NavigatorContent id=\"${9:third_nc}\" label=\"${10:Third}\" width=\"${11}\" height=\"${12}\">",
+			"\t\t<s:Label text=\"Third Screen\"/> ",
+			"\t</s:NavigatorContent>",
+			"</mx:ViewStack>$0"
+        ],
+        "description": "Creates a Spark TabBar"
+	},
+	"TabNavigator": {
+        "prefix": "TabNavigator",
+        "body": [
+			"<mx:TabNavigator id=\"${1:tabNavigator}\" width=\"${2:100%}\" height=\"${3:100%}\">",
+			"\t<s:NavigatorContent width=\"100%\" height=\"100%\" label=\"Tab 1\">",
+			"\t\t<s:Label text=\"This is tab 1\"/>",
+			"\t</s:NavigatorContent>",
+			"\t<s:NavigatorContent width=\"100%\" height=\"100%\" label=\"Tab 2\">",
+			"\t\t<s:Label text=\"This is tab 2\"/>",
+			"\t</s:NavigatorContent>",
+			"\t<s:NavigatorContent width=\"100%\" height=\"100%\" label=\"Tab 3\">",
+			"\t\t<s:Label text=\"This is tab 3\"/>",
+			"\t</s:NavigatorContent>",
+			"</mx:TabNavigator>$0"
+        ],
+        "description": "Creates a TabNavigator with 3 tabs"
+	}
 }

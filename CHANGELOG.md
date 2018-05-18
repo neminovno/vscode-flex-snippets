@@ -1,6 +1,9 @@
 # Change Log
-All notable changes to the "vscode-flex-snippets" extension will be documented in this file.
 
+
+### 0.0.3
+
+- added new snippets: `LinkButton`, `BitmapImage`, `ViewStack`, `MX TabBar`, `Spark TabBar`, `Spark TabBar with tabs` and `TabNavigator`
 
 ### 0.0.2
 

@@ -176,6 +176,20 @@ Install extension in VSCode, start typing component name and select snippet.
 
 `ZipCodeValidator`
 
+`LinkButton`
+
+`BitmapImage`
+
+`ViewStack`
+
+`MX TabBar`
+
+`Spark TabBar`
+
+`Spark TabBar with tabs`
+
+`TabNavigator`
+
 ## How to create Flex projects in VSCode
 
 Install [ActionScript & MXML extension for Visual Studio Code](https://as3mxml.com).
