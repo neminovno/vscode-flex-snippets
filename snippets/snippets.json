@@ -291,8 +291,8 @@
         ],
         "description": "Creates a Spark Image"
     },
-    "Spark Image wth embedded source": {
-        "prefix": "Image wth embedded source",
+    "Spark Image with embedded source": {
+        "prefix": "Image with embedded source",
         "body": [
             "<s:Image id=\"${image}\" source=\"@Embed(source='${imageSource}')\"/>$0"
         ],
