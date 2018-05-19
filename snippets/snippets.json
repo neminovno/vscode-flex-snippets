@@ -702,5 +702,19 @@
 			"</mx:TabNavigator>$0"
         ],
         "description": "Creates a TabNavigator with 3 tabs"
+    },
+    "HSlider": {
+        "prefix": "HSlider",
+        "body": [
+			"<s:HSlider id=\"${1:hSlider}\" minimum=\"${2:0}\" maximum=\"${3:100}\" value=\"${4:10}\" />$0"
+        ],
+        "description": "Creates a horizontal Slider"
+	},
+	"VSlider": {
+        "prefix": "VSlider",
+        "body": [
+			"<s:VSlider id=\"${1:vSlider}\" minimum=\"${2:0}\" maximum=\"${3:100}\" value=\"${4:10}\" />$0"
+        ],
+        "description": "Creates a vertical Slider"
 	}
 }

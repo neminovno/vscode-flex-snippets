@@ -1,5 +1,8 @@
 # Change Log
 
+### 0.0.4
+
+- added new snippets: `HSlider` and `VSlider`
 
 ### 0.0.3
 
