@@ -4,7 +4,17 @@ Quickly create MX and Spark components.
 
 ## How to use
 
-Install extension in VSCode, start typing component name and select snippet.
+Install extension in VSCode 
+
+![Install Flex Snippets](images/install.png "Install Flex Snippets")
+
+Open mxml file, start typing component name and select snippet
+
+![Use Flex Snippets](images/use.gif "Use Flex Snippets")
+
+
+> _Notice: To create Flex projects in VSCode install [ActionScript & MXML extension for Visual Studio Code](https://as3mxml.com)._
+
 
 ## Snippets
 
@@ -137,7 +147,3 @@ Install extension in VSCode, start typing component name and select snippet.
 `HSlider`
 
 `VSlider`
-
-## How to create Flex projects in VSCode
-
-Install [ActionScript & MXML extension for Visual Studio Code](https://as3mxml.com).
