@@ -220,7 +220,7 @@
     "Group": {
         "prefix": "Group",
         "body": [
-            "<s:Group width=\"${1:100}%\" height=\"${2:100}%\">",
+            "<s:Group width=\"${1:100%}\" height=\"${2:100%}\">",
             "\t$TM_SELECTED_TEXT$0",
             "</s:Group>"
         ],
@@ -240,7 +240,7 @@
     "HGroup": {
         "prefix": "HGroup",
         "body": [
-            "<s:HGroup width=\"${1:100}%\" height=\"${2:100}%\" >",
+            "<s:HGroup width=\"${1:100%}\" height=\"${2:100%}\">",
             "\t$TM_SELECTED_TEXT$0",
             "</s:HGroup>"
         ],
@@ -580,7 +580,7 @@
     "VGroup": {
         "prefix": "VGroup",
         "body": [
-            "<s:VGroup width=\"${1:100}%\" height=\"${2:100}%\" >",
+            "<s:VGroup width=\"${1:100%}\" height=\"${2:100%}\">",
             "\t$TM_SELECTED_TEXT$0",
             "</s:VGroup>"
         ],
