@@ -72,7 +72,7 @@ Open mxml file, start typing component name and select snippet
 
 `Spark Image`
 
-`Spark Image wth embedded source`
+`Spark Image with embedded source`
 
 `MX Label`
 
