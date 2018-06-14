@@ -145,3 +145,13 @@ Open mxml file, start typing component name and select snippet
 `HSlider`
 
 `VSlider`
+
+`Scroller`
+
+`NumericStepper`
+
+`Spinner`
+
+`SpinnerList`
+
+`DateSpinner`

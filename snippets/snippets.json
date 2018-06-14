@@ -716,5 +716,54 @@
 			"<s:VSlider id=\"${1:vSlider}\" minimum=\"${2:0}\" maximum=\"${3:100}\" value=\"${4:10}\" />$0"
         ],
         "description": "Creates a vertical Slider"
-	}
+    },
+    "Scroller": {
+        "prefix": "Scroller",
+        "body": [
+            "<s:Scroller id=\"${1:scroller}\" width=\"${2:200}\" height=\"${3:200}\"/>",
+            "\t$0",
+            "</s:Scroller>"
+        ],
+        "description": "Creates a Scroller"
+    },
+    "NumericStepper": {
+        "prefix": "NumericStepper",
+        "body": [
+            "<s:NumericStepper id=\"${1:numStepper}\" minimum=\"${2:1}\" maximum=\"${3:20}\" snapInterval=\"${4:1.5}\" stepSize=\"${4:1.5}\" allowValueWrap=\"${5|true,false|\"",
+            "\t\tvalue=\"${6:1.5}\" change=\"${7:${1}_onChangeHandler}(${8:event})\"/>$0"
+        ],
+        "description": "Creates a NumericStepper"
+    },
+    "Spinner": {
+        "prefix": "Spinner",
+        "body": [
+            "<s:Spinner id=\"${1:spinner}\" minimum=\"${2:2}\" maximum=\"${3:12}\" snapInterval=\"${4:3}\" change=\"${5:${1}_onChangeHandler}(${6:event})\"/>$0"
+        ],
+        "description": "Creates a Spinner"
+    },
+    "SpinnerList": {
+        "prefix": "SpinnerList (mobile)",
+        "body": [			
+			"<s:SpinnerListContainer>",
+			"\t<s:SpinnerList id=\"${1:spinnerList}\" typicalItem=\"${2:999}\" change=\"${3:${1}_onChange}(${4:event})\">",
+			"\t\t<s:dataProvider>",
+			"\t\t\t<s:NumericDataProvider maximum=\"${5:80}\" minimum=\"${6:0}\" stepSize=\"${7:5}\"/>",
+			"\t\t</s:dataProvider>",
+			"\t</s:SpinnerList>",
+			"</s:SpinnerListContainer>$0"
+        ],
+        "description": "Creates a SpinnerList"
+	},
+    "DateSpinner": {
+        "prefix": "DateSpinner (mobile)",
+        "body": [			
+			"<s:DateSpinner id=\"${1:dateSpinner}\" displayMode=\"${2|date,dateAndTime,time|}\"",
+			"\t\t\t   selectedDate=\"{new Date(${3:2010}, ${4:0}, ${5:20})}\"",
+			"\t\t\t   minDate=\"{new Date(${6:2005}, ${7:0}, ${8:1})}\"",
+			"\t\t\t   maxDate=\"{new Date(${9:2050}, ${10:11}, ${11:31})}\"",
+			"\t\t\t   minuteStepSize=\"${12:5}\"",
+			"\t\t\t   change=\"${13:${1}_onChange}(${event})}\"/>$0"
+        ],
+        "description": "Creates a DateSpinner"
+    }
 }

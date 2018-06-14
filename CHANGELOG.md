@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.5
+
+- added new snippets: `Scroller`, `NumericStepper`, `Spinner`, `SpinnerList` and `DateSpinner`
+
 ## 0.0.4
 
 - added new snippets: `HSlider` and `VSlider`
